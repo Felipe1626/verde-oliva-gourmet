@@ -1,16 +1,27 @@
-<div class="max-h-screen overflow-y-scroll">
+<div class="max-h-screen overflow-y-scroll scroll-smooth scroll-p-6">
   <div class="m-6 overflow-hidden">
     <app-header></app-header>
     <img src="../assets/verde-oliva-transparent.png" alt="" srcset="" class="mb-16">
-    <router-outlet>
-      <app-products></app-products>
+    <app-products></app-products>
+    <div id="pizzas">
       <app-pizza></app-pizza>
+    </div>
+    <div id="french-fries">
       <app-french-fries></app-french-fries>
+    </div>
+    <div id="hamburgers">
       <app-hamburgers></app-hamburgers>
+    </div>
+    <div id="crunch-wings">
       <app-crunch-wings></app-crunch-wings>
+    </div>
+    <div id="patacones">
       <app-patacones></app-patacones>
+    </div>
+    <div id="to-share">
       <app-to-share></app-to-share>
-      <app-contact></app-contact>
-    </router-outlet>
+    </div>
+    
+    <app-contact></app-contact>
   </div>  
 </div>
