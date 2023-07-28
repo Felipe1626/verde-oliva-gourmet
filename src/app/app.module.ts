@@ -15,6 +15,7 @@ import { FrenchFriesComponent } from './components/products/components/french-fr
 import { ToShareComponent } from './components/products/components/to-share/to-share.component';
 import { CrunchWingsComponent } from './components/products/components/crunch-wings/crunch-wings.component';
 import { PataconesComponent } from './components/products/components/patacones/patacones.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PataconesComponent } from './components/products/components/patacones/p
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

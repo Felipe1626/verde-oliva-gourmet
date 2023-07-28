@@ -1,7 +1,9 @@
 <div class="max-h-screen overflow-y-scroll scroll-smooth scroll-p-6">
   <div class="m-6 overflow-hidden">
-    <app-header></app-header>
-    <img src="../assets/verde-oliva-transparent.png" alt="" srcset="" class="mb-16">
+    <div id="up">
+      <app-header></app-header>
+    </div>
+    <img src="../assets/verde-oliva-transparent.png" alt="" srcset="" class="mb-24 mt-16">
     <app-products></app-products>
     <div id="pizzas">
       <app-pizza></app-pizza>
@@ -24,4 +26,7 @@
     
     <app-contact></app-contact>
   </div>  
+</div>
+<div class="absolute border-2 border-yellow-50 bg-green-900 flex justify-center items-center w-14 h-14 rounded-full bottom-6 right-6">
+  <a href="#up" class="text-white"><fa-icon class="fa-solid fa-bounce fa-xl" [icon]="faArrowUp" style="color: #eaebdb;"></fa-icon></a>
 </div>
