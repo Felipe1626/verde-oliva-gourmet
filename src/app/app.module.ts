@@ -16,6 +16,9 @@ import { ToShareComponent } from './components/products/components/to-share/to-s
 import { CrunchWingsComponent } from './components/products/components/crunch-wings/crunch-wings.component';
 import { PataconesComponent } from './components/products/components/patacones/patacones.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { VideoSliderComponent } from './components/video-slider/video-slider.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,12 +34,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FrenchFriesComponent,
     ToShareComponent,
     CrunchWingsComponent,
-    PataconesComponent
+    PataconesComponent,
+    VideoSliderComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
