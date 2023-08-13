@@ -19,6 +19,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { VideoSliderComponent } from './components/video-slider/video-slider.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { AdminComponent } from './components/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FormsModule } from '@angular/forms';
     ToShareComponent,
     CrunchWingsComponent,
     PataconesComponent,
-    VideoSliderComponent
+    VideoSliderComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

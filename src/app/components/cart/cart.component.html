@@ -1,1 +1,37 @@
-<p>cart works!</p>
+<div id="cart" class="cart_close p-1">
+    <button (click)="showOrder()">
+        <img id="open_button" src="../../../assets/Fonts/receipt-solid.svg" class="h-12" alt="" srcset="" >
+        <span id="close_button" class="hidden text-[#eaebdb] text-2xl border border-green-700 rounded-full w-12 h-12 justify-center items-center mr-1 font-semibold">X</span>
+    </button>
+    <div id="cart_content" class="w-full h-full hidden">
+        <div>
+            <table>
+                
+                <thead>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+
+                </thead>
+                <tbody>
+                
+                    <td>
+                        <tr>Pizza Napole</tr>
+                        <tr>Hamburguesa Polux</tr>
+                        <tr>Alitas Crunch</tr>
+                    </td>
+                    <td>
+                        <tr>4</tr>
+                        <tr>2</tr>
+                        <tr>5</tr>
+                    </td>
+                    <td>
+                        <tr>30.000</tr>
+                        <tr>20.000</tr>
+                        <tr>80.000</tr>
+                    </td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-<nav class="w-full h-64 mx-auto grid mb-52 grid-cols-2 grid-rows-3 ">
+<nav class="w-full h-64 mx-auto grid mb-2 grid-cols-2 grid-rows-3 ">
   <a class="products_button " href="#pizzas">pizzas</a>
   <a class="products_button" href="#hamburgers">hamburguesas</a>
   <a class="products_button" href="#french-fries">papas fritas</a>
@@ -6,15 +6,3 @@
   <a class="products_button" href="#to-share" >compartir</a>
   <a class="products_button" href="#patacones">patacones</a>
 </nav>
-
-<div class="bg-green-900 hidden">
-  <input type="number" placeholder="id" name="" [(ngModel)]="product.id" id="">
-  <input type="text" placeholder="product" name="" [(ngModel)]="product.product" id="">
-  <input type="text" placeholder="img" name="" [(ngModel)]="product.product_img" id="">
-  <input type="text" placeholder="category" name="" [(ngModel)]="product.product_category" id="">
-  <input type="number" placeholder="price" name="" [(ngModel)]="product.product_price" id="">
-  <input type="boolean" placeholder="available" name="" [(ngModel)]="product.available" id="">
-  <input type="text" placeholder="description" name="" [(ngModel)]="product.product_description" id="">
-
-  <button (click)="addProduct">ADD</button>
-</div>
