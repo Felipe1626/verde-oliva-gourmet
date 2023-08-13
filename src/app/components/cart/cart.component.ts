@@ -14,6 +14,7 @@ export class CartComponent {
     if (cart && close_button && open_button && cart_content ) {
       cart.classList.toggle('cart')
       cart.classList.toggle('cart_close')
+      cart.classList.toggle('!rounded-lg')
       close_button.classList.toggle('hidden')
       close_button.classList.toggle('flex')
       cart_content.classList.toggle('hidden')
