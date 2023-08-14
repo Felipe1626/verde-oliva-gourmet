@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faShoppingBasket, faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-pizza',
@@ -6,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./pizza.component.sass']
 })
 export class PizzaComponent {
+  faShoppingBasket = faShoppingBasket
+  faPenToSquare = faPenToSquare
+
   cuantity: number = 1;
 
   addCuantity(){

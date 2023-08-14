@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faReceipt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-cart',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cart.component.sass']
 })
 export class CartComponent {
+  faReceipt = faReceipt
   showOrder(){
     const cart = document.getElementById('cart')
     const close_button = document.getElementById('close_button')
@@ -14,7 +16,6 @@ export class CartComponent {
     if (cart && close_button && open_button && cart_content ) {
       cart.classList.toggle('cart')
       cart.classList.toggle('cart_close')
-      cart.classList.toggle('!rounded-lg')
       close_button.classList.toggle('hidden')
       close_button.classList.toggle('flex')
       cart_content.classList.toggle('hidden')
