@@ -17,7 +17,7 @@
       <button id="startOrder" (click)="toggleCuantity()" class="rounded-md border-2 border-[#25351798] bg-green-100/20 w-14 h-10">
         <fa-icon [icon]="faShoppingBasket" class="text-2xl mx-auto text-green-50">        </fa-icon>
       </button>
-      <div id="cuantityOrder" class="col hidden">
+      <div id="cuantityOrder" class="col w-[400px] hidden">
         <div class="row">
           <select name="" id="">
             <option value="mediana">Mediana</option>
@@ -41,7 +41,9 @@
             </button>
             
           </div>
-          <button><fa-icon [icon]="faPenToSquare"></fa-icon></button>
+          <div>
+            <button class="w-10 h-10"><fa-icon [icon]="faPenToSquare"></fa-icon></button>
+          </div>
 
         </div>
       </div>
