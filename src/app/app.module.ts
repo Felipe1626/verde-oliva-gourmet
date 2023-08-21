@@ -20,6 +20,8 @@ import { VideoSliderComponent } from './components/video-slider/video-slider.com
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { AdminComponent } from './components/admin/admin.component';
+import { OurBreadsComponent } from './components/products/components/our-breads/our-breads.component';
+import { DrinksComponent } from './components/products/components/drinks/drinks.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { AdminComponent } from './components/admin/admin.component';
     CrunchWingsComponent,
     PataconesComponent,
     VideoSliderComponent,
-    AdminComponent
+    AdminComponent,
+    OurBreadsComponent,
+    DrinksComponent
   ],
   imports: [
     BrowserModule,

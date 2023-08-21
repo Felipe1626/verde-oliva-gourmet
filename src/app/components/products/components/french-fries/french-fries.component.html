@@ -1,4 +1,66 @@
 <h1 class="uppercase font-bold text-2xl border-b-2 mt-5 border-lime-950">Papas Fritas Naturales</h1>
+
+<div>
+   <!--Start Product #-->
+  <div class="product_cart relative flex rounded-md border-2 border-[#253517] mb-5 p-2 h-48">
+    <div class="w-4/5">
+      <h3>Papas Fritas</h3>
+      <div class="grid grid-cols-3 gap-0 font-semibold">
+        <div class="">
+          <h4>Personal</h4>
+          <p>2.900</p>
+        </div>
+        <div class="">
+          <h4>Mediana</h4>
+          <p>7.500</p>
+        </div>
+        <div>
+          <h4>Familiar</h4>
+          <p>10.000</p>
+        </div>
+      </div>
+      <button id="startOrder" (click)="toggleCuantity()" class="rounded-md hidden border-2 border-[#25351798] bg-green-100/20 w-14 h-10">
+        <fa-icon [icon]="faShoppingBasket" class="text-2xl mx-auto text-green-50">        </fa-icon>
+      </button>
+      <div id="cuantityOrder" class="col w-[400px] hidden">
+        <div class="row">
+          <select name="" id="">
+            <option value="mediana">Mediana</option>
+            <option value="grande">Grande</option>
+          </select>
+          <select name="adicionales" id="">
+            <option value="">Adicionales</option>
+            <option value="PapasFritas">Papas Fritas</option>
+            <option value="">Jamon</option>
+            <option value="">Queso</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="w-24 h-10 border-2 flex border-green-400/10 rounded-md hover:border-3 hover:border-green-200">
+            <button (click)="removeCuantity()" class="w-7 rounded-md rounded-r-none bg-green-300/10">
+              -
+            </button>
+            <span class="w-10 leading-10 bg-green-100 text-green-950 text-center">{{ cuantity }}</span>
+            <button (click)="addCuantity()" class="rounded-md rounded-l-none bg-green-300/10 w-7">
+              +
+            </button>
+            
+          </div>
+          <div>
+            <button class="w-10 h-10"><fa-icon [icon]="faPenToSquare"></fa-icon></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="flex">
+      <img src="../../../../../assets/verde-oliva-logotype.jpeg" class="h-[7.2rem] mx-auto rounded-md rounded-l-none hover:absolute hover:w-96 hover:h-96 hover:left-0 hover:bottom-0" alt="" srcset="">
+    </div>
+  </div>
+
+</div>
+
+<!--
 <div>
   <div>
     <div class="col-span-3 mb-2">
@@ -129,3 +191,4 @@
   </div>
   
 </div>
+-->

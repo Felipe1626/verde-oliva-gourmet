@@ -3,11 +3,11 @@ import { faShoppingBasket, faPenToSquare } from '@fortawesome/free-solid-svg-ico
 
 
 @Component({
-  selector: 'app-french-fries',
-  templateUrl: './french-fries.component.html',
-  styleUrls: ['./french-fries.component.sass']
+  selector: 'app-drinks',
+  templateUrl: './drinks.component.html',
+  styleUrls: ['./drinks.component.sass']
 })
-export class FrenchFriesComponent {
+export class DrinksComponent {
   faShoppingBasket = faShoppingBasket
   faPenToSquare = faPenToSquare
 
